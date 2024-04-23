@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 import { useAtom } from "jotai";
 import { currentProjectAtom, projects } from "./Projects";
+import { currentProjectCopyAtom, projectsCopy } from "./ProjectsCopy";
+
+
 
 const Section = (props) => {
   const { children } = props;
@@ -36,6 +39,9 @@ export const Interface = (props) => {
       <AboutSection setSection={setSection} />
       <SkillsSection />
       <ProjectsSection />
+      <ProjectsCopySection />
+     
+      
       <ContactSection />
     </div>
   );
@@ -51,10 +57,10 @@ const AboutSection = (props) => {
         <span className="bg-white px-1 italic">Chloe O!</span>
       </h1>
       <motion.p
-        className="text-lg text-gray-600 mt-4"
+        className="text-lg text-black font-bold mt-7"
         initial={{
           opacity: 0,
-          y: 25,
+          y: 21,
         }}
         whileInView={{
           opacity: 1,
@@ -62,7 +68,7 @@ const AboutSection = (props) => {
         }}
         transition={{
           duration: 1,
-          delay: 1.5,
+          delay: 1,
         }}
       >
         I develop interactive front-end web experiences
@@ -70,7 +76,7 @@ const AboutSection = (props) => {
         that unite practicality and intuitive design elements.
       </motion.p>
       <motion.button
-        onClick={() => setSection(3)}
+        onClick={() => setSection(4)}
         className={`bg-indigo-600 text-white py-4 px-8 
       rounded-lg font-bold text-lg mt-16`}
         initial={{
@@ -269,6 +275,39 @@ const ProjectsSection = () => {
     </Section>
   );
 };
+
+const ProjectsCopySection = () => {
+  const [currentProjectCopy, setCurrentProjectCopy] = useAtom(currentProjectCopyAtom);
+
+  const nextProjectCopy = () => {
+    setCurrentProjectCopy((currentProjectCopy + 1) % projectsCopy.length);
+  };
+
+  const previousProjectCopy = () => {
+    setCurrentProjectCopy((currentProjectCopy - 1 + projectsCopy.length) % projectsCopy.length);
+  };
+
+  return (
+    <Section>
+      <div className="flex w-full h-full gap-8 items-center justify-center">
+        <button
+          className="hover:text-indigo-600 transition-colors"
+          onClick={previousProjectCopy}
+        >
+          ← Previous
+        </button>
+        <h2 className="text-5xl font-bold">Projects Copy</h2>
+        <button
+          className="hover:text-indigo-600 transition-colors"
+          onClick={nextProjectCopy}
+        >
+          Next →
+        </button>
+      </div>
+    </Section>
+  );
+};
+
 
 const ContactSection = () => {
   return (
