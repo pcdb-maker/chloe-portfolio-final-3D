@@ -48,7 +48,7 @@ const AboutSection = (props) => {
       <h1 className="text-6xl font-extrabold leading-snug">
         Hi, I'm
         <br />
-        <span className="bg-white px-1 italic">Wawa Sensei</span>
+        <span className="bg-white px-1 italic">Chloe O!</span>
       </h1>
       <motion.p
         className="text-lg text-gray-600 mt-4"
@@ -65,9 +65,9 @@ const AboutSection = (props) => {
           delay: 1.5,
         }}
       >
-        I make YouTube videos to help developers
+        I develop interactive front-end web experiences
         <br />
-        learn how to build 3D apps
+        that unite practicality and intuitive design elements.
       </motion.p>
       <motion.button
         onClick={() => setSection(3)}
@@ -108,6 +108,18 @@ const skills = [
   {
     title: "Typescript",
     level: 60,
+  },
+  {
+    title: "3D Modeling",
+    level: 40,
+  },
+  {
+    title: "3D Modeling",
+    level: 40,
+  },
+  {
+    title: "3D Modeling",
+    level: 40,
   },
   {
     title: "3D Modeling",
