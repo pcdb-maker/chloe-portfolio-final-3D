@@ -43,7 +43,7 @@ const Project = (props) => {
   const { project, highlighted } = props;
 
   const background = useRef();
-  const bgOpacity = useMotionValue(0.4);
+  const bgOpacity = useMotionValue(1.4);
 
   useEffect(() => {
     animate(bgOpacity, highlighted ? 0.7 : 0.4);
@@ -73,7 +73,7 @@ const Project = (props) => {
         maxWidth={2}
         anchorX={"left"}
         anchorY={"top"}
-        fontSize={0.2}
+        fontSize={0.1}
         position={[-1, -0.4, 0]}
       >
         {project.title.toUpperCase()}
@@ -91,7 +91,7 @@ const Project = (props) => {
   );
 };
 
-export const currentProjectAtom = atom(Math.floor(projects.length / 2));
+export const currentProjectAtom = atom(Math.floor(projects.length / 3));
 
 export const Projects = () => {
   const { viewport } = useThree();
