@@ -4,11 +4,12 @@ import { MotionConfig } from "framer-motion";
 import { Leva } from "leva";
 import { useEffect, useState } from "react";
 import { Cursor } from "./components/Cursor";
+import { ScrollManager } from "./components/ScrollManager";
+import { framerMotionConfig } from "./config";
 import { Experience } from "./components/Experience";
 import { Interface } from "./components/Interface";
 import { Menu } from "./components/Menu";
-import { ScrollManager } from "./components/ScrollManager";
-import { framerMotionConfig } from "./config";
+
 
 function App() {
   const [section, setSection] = useState(0);
