@@ -43,7 +43,7 @@ export const Experience = (props) => {
     setCharacterAnimation("Falling");
     setTimeout(() => {
       setCharacterAnimation(section === 0 ? "Typing" : "Standing");
-    }, 600);
+    }, 350);
   }, [section]);
 
   useFrame((state) => {
@@ -79,7 +79,7 @@ export const Experience = (props) => {
           duration: 0.6,
         }}
 
-        // controls postion for page 0 aka the main splash page
+        // controls postion for Avatar on page 0 aka the main splash page
         variants={{
           0: {
             scaleX: 0.9,
@@ -88,7 +88,7 @@ export const Experience = (props) => {
           },
 
 
-          // controls postion for page 1 aka the main skills page
+          // controls postion for Avatar on page 1 aka the main skills page
 
           1: {
             y: -viewport.height + 1,
@@ -99,7 +99,7 @@ export const Experience = (props) => {
             rotateZ: 0,
           },
 
-          // controls postion for page 2 aka the projects page
+          // controls postion for Avatar on  page 2 aka the projects page
 
           2: {
             x: -2,
@@ -110,7 +110,7 @@ export const Experience = (props) => {
             rotateZ: 0,
           },
 
-          // controls postion for page 3 aka the education page
+          // controls postion for avatar on page 3 aka the education page
 
           3: {
             x: -3,
@@ -121,7 +121,7 @@ export const Experience = (props) => {
             rotateZ: 0,
           },
 
-          // controls postion for page 4 aka the contact page
+          // controls postion for Avatar on page 4 aka the contact page
 
           4: {
             y: -viewport.height * 4 + 1,
