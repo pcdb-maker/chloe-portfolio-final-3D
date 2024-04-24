@@ -60,7 +60,7 @@ const Project = (props) => {
         onClick={() => window.open(project.url, "_blank")}
         ref={background}
       >
-        <planeGeometry args={[2.2, 2]} />
+        <planeGeometry args={[2.8, 2.5]} />
         <meshBasicMaterial color="black" transparent opacity={0.4} />
       </mesh>
       <Image
@@ -91,7 +91,7 @@ const Project = (props) => {
   );
 };
 
-export const currentProjectAtom = atom(Math.floor(projects.length / 3));
+export const currentProjectAtom = atom(Math.floor(projects.length * 0)); // Mathmatical logic of which item should display in the carousel first
 
 export const Projects = () => {
   const { viewport } = useThree();
@@ -102,13 +102,12 @@ export const Projects = () => {
       {projects.map((project, index) => (
         <motion.group
           key={"project_" + index}
-          position={[index * 2.5, 0, -3]}
+          position={[index * -2.5, 0, -3]}
           animate={{
-            x: 0 + (index - currentProject) * 2.5,
+            x: 0 + (index - currentProject) * 4,
             y: currentProject === index ? 0 : -0.1,
             z: currentProject === index ? -2 : -3,
-            rotateX: currentProject === index ? 0 : -Math.PI / 3,
-            rotateZ: currentProject === index ? 0 : -0.1 * Math.PI,
+            
           }}
         >
           <Project project={project} highlighted={index === currentProject} />
