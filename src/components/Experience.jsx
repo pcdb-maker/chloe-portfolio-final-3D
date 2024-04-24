@@ -49,8 +49,9 @@ export const Experience = (props) => {
   useFrame((state) => {
     let curSection = Math.floor(data.scroll.current * data.pages);
 
-    if (curSection > 3) {
-      curSection = 3;
+    //If more pages are added, this logic needs to change to dynamically update the fetch page scroll animation to the final postion to one less than the total number of pages
+    if (curSection > 4) {
+      curSection = 4;
     }
 
     if (curSection !== section) {
@@ -63,6 +64,10 @@ export const Experience = (props) => {
     
   });
 
+
+
+  
+
   return (
     <>
       <Background />
@@ -73,36 +78,60 @@ export const Experience = (props) => {
         transition={{
           duration: 0.6,
         }}
+
+        // controls postion for page 0 aka the main splash page
         variants={{
           0: {
             scaleX: 0.9,
             scaleY: 0.9,
             scaleZ: 0.9,
           },
+
+
+          // controls postion for page 1 aka the main skills page
+
           1: {
-            y: -viewport.height + 0.5,
+            y: -viewport.height + 1,
             x: 0,
-            z: 7,
+            z: 6,
             rotateX: 0,
             rotateY: 0,
             rotateZ: 0,
           },
+
+          // controls postion for page 2 aka the projects page
+
           2: {
             x: -2,
             y: -viewport.height * 2 + 0.5,
-            z: 0,
+            z: 1,
             rotateX: 0,
             rotateY: Math.PI / 2,
             rotateZ: 0,
           },
+
+          // controls postion for page 3 aka the education page
+
           3: {
-            y: -viewport.height * 3 + 1,
+            x: -3,
+            y: -viewport.height * 3 + 0.5,
+            z: 1,
+            rotateX: 0,
+            rotateY: Math.PI / 2,
+            rotateZ: 0,
+          },
+
+          // controls postion for page 4 aka the contact page
+
+          4: {
+            y: -viewport.height * 4 + 1,
             x: 0.3,
             z: 8.5,
             rotateX: 0,
             rotateY: -Math.PI / 4,
             rotateZ: 0,
           },
+          
         }}
       >
         <Avatar animation={characterAnimation} />
@@ -125,9 +154,9 @@ export const Experience = (props) => {
         ></group>
       </motion.group>
 
-      {/* SKILLS */}
+      {/* SKILLS bubble animiations*/}
       <motion.group
-        position={[0, -1.5, -10]}
+        position={[1, -1.5, -10]}
         animate={{
           z: section === 1 ? 0 : -10,
           y: section === 1 ? -viewport.height : -1.5,
@@ -173,6 +202,7 @@ export const Experience = (props) => {
       </motion.group>
       <Projects />
       <ProjectsCopy />
+      
       
     </>
   );
