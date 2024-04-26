@@ -201,6 +201,7 @@ const ProjectsSection = () => {
     setCurrentProject((currentProject - 1 + projects.length) % projects.length);
   };
 
+
   return (
     <Section>
       <div className="flex w-full h-full gap-8 items-center justify-center">
@@ -210,7 +211,10 @@ const ProjectsSection = () => {
         >
           ← Previous
         </button>
-        <h2 className="text-5xl font-bold">Projects</h2>
+        <h2 className="text-5xl font-bold">Hosted Project Gallery </h2>
+      
+
+        
         <button
           className="hover:text-indigo-600 transition-colors"
           onClick={nextProject}
@@ -218,6 +222,7 @@ const ProjectsSection = () => {
           Next →
         </button>
       </div>
+     
     </Section>
   );
 };
@@ -242,7 +247,10 @@ const ProjectsCopySection = () => {
         >
           ← Previous
         </button>
-        <h2 className="text-5xl font-bold">Projects Copy</h2>
+
+
+
+        <h2 className="text-5xl font-bold">Education History</h2>
         <button
           className="hover:text-indigo-600 transition-colors"
           onClick={nextProjectCopy}
