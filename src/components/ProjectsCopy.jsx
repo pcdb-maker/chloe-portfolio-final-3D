@@ -12,31 +12,31 @@ export const projectsCopy = [
   {
     title: "Wawatmos",
     url: "https://r3f-wawatmos-final.vercel.app/",
-    image: "projectsCopy/wawatmos.jpg",
+    image: "projects/avatar.jpg",
     description: "Recreating the Atmos Awwwards website with React Three Fiber",
   },
   {
     title: "Portfolio Baking",
     url: "https://www.youtube.com/watch?v=YkHqpqJgLKw",
-    image: "projectsCopy/baking.jpg",
+    image: "projects/avatar.jpg",
     description: "Learn how to bake a 3D model with Blender and use it in r3f",
   },
   {
     title: "3D Avatar",
     url: "https://www.youtube.com/watch?v=pGMKIyALcK0",
-    image: "projectsCopy/avatar.jpg",
+    image: "projects/avatar.jpg",
     description: "Learn how to use ReadyPlayerMe to create a 3D avatar",
   },
   {
     title: "Kanagame",
     url: "https://www.youtube.com/watch?v=zwNF1-lsia8",
-    image: "projectsCopy/kanagame.jpg",
+    image: "projects/avatar.jpg",
     description: "Use React Three Fiber to create a 3D game",
   },
   {
     title: "Loader",
     url: "https://www.youtube.com/watch?v=L12wIvuZTOY",
-    image: "projectsCopy/loader.jpg",
+    image: "projects/avatar.jpg",
     description: "Create a loading screen for your r3f projects",
   },
 ];
@@ -45,10 +45,10 @@ const ProjectCopy = (props) => {
   const { projectCopy, highlighted } = props;
 
   const background = useRef();
-  const bgOpacity = useMotionValue(1.4);
+  const bgOpacity = useMotionValue(1.7);
 
   useEffect(() => {
-    animate(bgOpacity, highlighted ? .7 : 0.4);
+    animate(bgOpacity, highlighted ? 1.7 : 1.4);
   }, [highlighted]);
 
   useFrame(() => {
@@ -64,10 +64,10 @@ const ProjectCopy = (props) => {
         ref={background}
       >
         <planeGeometry args={[2.8, 2.5]} />
-        <meshBasicMaterial color="black" transparent opacity={1.4} />
+        <meshBasicMaterial color="black" transparent opacity={5} />
       </mesh>
       <Image
-        scale={[2, 1.2, 2]}
+        scale={[2.6, 1.5, 2]}
         url={projectCopy.image}
         toneMapped={false}
         position-y={-7.95}
@@ -76,8 +76,8 @@ const ProjectCopy = (props) => {
         maxWidth={2}
         anchorX={"left"}
         anchorY={"top"}
-        fontSize={0.1}
-        position={[-1, -8.7, 0]}
+        fontSize={0.2}
+        position={[-1, -8.9, 0]}
       >
         {projectCopy.title.toUpperCase()}
       </Text>
@@ -86,7 +86,7 @@ const ProjectCopy = (props) => {
         anchorX="left"
         anchorY="top"
         fontSize={0.1}
-        position={[-0.91, -8.7, 1]}
+        position={[-1, -9,1]}
       >
         {projectCopy.description}
       </Text>
