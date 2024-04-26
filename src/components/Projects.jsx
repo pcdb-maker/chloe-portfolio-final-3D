@@ -10,13 +10,13 @@ export const projects = [
   {
     title: "Wawatmos",
     url: "https://r3f-wawatmos-final.vercel.app/",
-    image: "projects/wawatmos.jpg",
+    image: "projects/avatar.jpg",
     description: "Recreating the Atmos Awwwards website with React Three Fiber",
   },
   {
     title: "Portfolio Baking",
     url: "https://www.youtube.com/watch?v=YkHqpqJgLKw",
-    image: "projects/baking.jpg",
+    image: "projects/avatar.jpg",
     description: "Learn how to bake a 3D model with Blender and use it in r3f",
   },
   {
@@ -28,13 +28,13 @@ export const projects = [
   {
     title: "Kanagame",
     url: "https://www.youtube.com/watch?v=zwNF1-lsia8",
-    image: "projects/kanagame.jpg",
+    image: "projects/avatar.jpg",
     description: "Use React Three Fiber to create a 3D game",
   },
   {
     title: "Loader",
     url: "https://www.youtube.com/watch?v=L12wIvuZTOY",
-    image: "projects/loader.jpg",
+    image: "projects/avatar.jpg",
     description: "Create a loading screen for your r3f projects",
   },
 ];
@@ -43,10 +43,10 @@ const Project = (props) => {
   const { project, highlighted } = props;
 
   const background = useRef();
-  const bgOpacity = useMotionValue(1.4);
+  const bgOpacity = useMotionValue(1.7);
 
   useEffect(() => {
-    animate(bgOpacity, highlighted ? 0.7 : 0.4);
+    animate(bgOpacity, highlighted ? 1.7 : 1.4);
   }, [highlighted]);
 
   useFrame(() => {
@@ -61,19 +61,19 @@ const Project = (props) => {
         ref={background}
       >
         <planeGeometry args={[2.8, 2.5]} />
-        <meshBasicMaterial color="black" transparent opacity={0.4} />
+        <meshBasicMaterial color="black" transparent opacity={5} />
       </mesh>
       <Image
-        scale={[2, 1.2, 1]}
+        scale={[2.6, 1.5, 2]}
         url={project.image}
         toneMapped={false}
-        position-y={0.3}
+        position-y={0.4}
       />
       <Text
         maxWidth={2}
         anchorX={"left"}
         anchorY={"top"}
-        fontSize={0.1}
+        fontSize={0.2}
         position={[-1, -0.4, 0]}
       >
         {project.title.toUpperCase()}
