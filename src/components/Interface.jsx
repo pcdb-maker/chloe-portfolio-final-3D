@@ -103,37 +103,47 @@ const AboutSection = (props) => {
 
 const skills = [
   {
-    title: "Threejs / React Three Fiber",
+   
+    title: "Java Script (ES7)",
+    level: 90,
+  },
+  {
+  
+    title: "React.js (Next.js, Vite.js, Vue.js)",
+    level: 90,
+  },
+
+  {
+   
+    title: "Nodejs (NPM, YARN, BUN & GULP)",
     level: 80,
   },
+  
   {
-    title: "React / React Native",
-    level: 90,
+   
+    title: "HTML/CSS/SCSS/Tailwind/Bootstrap",
+    level: 70,
   },
   {
-    title: "Nodejs",
-    level: 90,
+  
+    title: "RESTful API Integration ",
+    level: 70,
   },
   {
-    title: "Typescript",
+   
+    title: "TypeScript",
     level: 60,
   },
   {
-    title: "3D Modeling",
+   
+    title: "Three.js",
     level: 40,
   },
   {
     title: "3D Modeling",
-    level: 40,
+    level: 30,
   },
-  {
-    title: "3D Modeling",
-    level: 40,
-  },
-  {
-    title: "3D Modeling",
-    level: 40,
-  },
+ 
 ];
 
 
