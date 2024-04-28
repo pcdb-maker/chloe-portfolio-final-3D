@@ -37,6 +37,13 @@ export const projects = [
     image: "projects/avatar.jpg",
     description: "Create a loading screen for your r3f projects",
   },
+
+  {
+    title: "Loader",
+    url: "https://www.youtube.com/watch?v=L12wIvuZTOY",
+    image: "projects/avatar.jpg",
+    description: "Create a loading screen for your r3f projects",
+  },
 ];
 
 const Project = (props) => {
