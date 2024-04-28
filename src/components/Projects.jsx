@@ -38,7 +38,7 @@ export const projects = [
     title: "E-Commerce site",
     url: "https://react-athena-jewelry.netlify.app/",
     image: "projects/avatar5.jpg",
-    description: "Frontend version of an e-commerce website using React.js and Vite.js.",
+    description: "Front-end version of an e-commerce website with multi-modal pop-outs using React.js and Vite.js.",
   },
 
 
@@ -46,7 +46,42 @@ export const projects = [
     title: "Banking Website",
     url: "https://react-banking-app-fe.netlify.app/",
     image: "projects/avatar6.jpg",
-    description: "Fully interactive webspage with one-page navigational header made with React.js",
+    description: "Fully interactive web-page with one-page navigational header made with React.js.",
+  },
+
+  {
+    title: "Travel Website",
+    url: "https://react-travel-fe.netlify.app/",
+    image: "projects/avatar7.jpg",
+    description: "One page website with splash page. Made with React.js.",
+  },
+
+  {
+    title: "Space Website",
+    url: "https://react-space-fe.netlify.app/",
+    image: "projects/avatar8.jpg",
+    description: "One page website with splash page and AOS animation. Made with React.js.",
+  },
+
+  {
+    title: "Metaverse Website",
+    url: "https://react-metaverse-fe.netlify.app/",
+    image: "projects/avatar9.jpg",
+    description: "One page website with splash page, dynamic loading and AOS animation. Made with React.js.",
+  },
+
+  {
+    title: "Example Portfolio",
+    url: "https://react-portfolio-fe.netlify.app/",
+    image: "projects/avatar10.jpg",
+    description: "Fully interactive web-page with one-page navigational header made with React.js.",
+  },
+
+  {
+    title: "Restaurant",
+    url: "https://burger-restaurant-react-fe.netlify.app/",
+    image: "projects/avatar11.jpg",
+    description: "One page website with splash page. Made with React.js.",
   },
  
 ];  
@@ -93,7 +128,7 @@ const Project = (props) => {
         maxWidth={2}
         anchorX="left"
         anchorY="top"
-        fontSize={0.1}
+        fontSize={0.13}
         position={[-1, -0.6, 0]}
       >
         {project.description}
