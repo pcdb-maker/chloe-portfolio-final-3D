@@ -10,35 +10,36 @@ import { useEffect, useRef } from "react";
 
 export const projectsCopy = [
   {
-    title: "Wawatmos",
-    url: "https://r3f-wawatmos-final.vercel.app/",
-    image: "projects/avatar.jpg",
-    description: "Recreating the Atmos Awwwards website with React Three Fiber",
+    title: "",
+    url: "",
+    image: "projectsCopy/education2.jpg",
+    description: "",
   },
   {
-    title: "Portfolio Baking",
-    url: "https://www.youtube.com/watch?v=YkHqpqJgLKw",
-    image: "projects/avatar.jpg",
-    description: "Learn how to bake a 3D model with Blender and use it in r3f",
+    title: "",
+    url: "",
+    image: "projectsCopy/education3.jpg",
+    description: "",
   },
   {
-    title: "3D Avatar",
-    url: "https://www.youtube.com/watch?v=pGMKIyALcK0",
-    image: "projects/avatar.jpg",
-    description: "Learn how to use ReadyPlayerMe to create a 3D avatar",
+    title: "",
+    url: "",
+    image: "projectsCopy/education4.jpg",
+    description: "",
   },
   {
-    title: "Kanagame",
-    url: "https://www.youtube.com/watch?v=zwNF1-lsia8",
-    image: "projects/avatar.jpg",
-    description: "Use React Three Fiber to create a 3D game",
+    title: "",
+    url: "",
+    image: "projectsCopy/education5.jpg",
+    description: "",
   },
   {
-    title: "Loader",
-    url: "https://www.youtube.com/watch?v=L12wIvuZTOY",
-    image: "projects/avatar.jpg",
-    description: "Create a loading screen for your r3f projects",
+    title: "",
+    url: "",
+    image: "projectsCopy/education1.jpg",
+    description: "",
   },
+  
 ];
 
 const ProjectCopy = (props) => {
