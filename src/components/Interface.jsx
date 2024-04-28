@@ -276,13 +276,17 @@ const ProjectsCopySection = () => {
 const ContactSection = () => {
   return (
     <Section>
-<h1>Contact</h1>
-// renders: vimeo icon
-<SocialIcon target="_blank" url="www.behance.com"></SocialIcon>
-// renders: meetup icon
-<SocialIcon target="_blank" url="www.github.com"></SocialIcon>
-// renders: meetup icon
-<SocialIcon target="_blank" url="www.vimeo.com"></SocialIcon>
+ <h2 className="text-5xl font-bold">Contact</h2>
+
+<b>Github:</b>
+<SocialIcon target="_blank" url="https://github.com/pcdb-maker"></SocialIcon>
+<br/>
+<b>LinkedIn:</b>
+<SocialIcon target="_blank" url="https://www.linkedin.com/in/chloe-o-834127306/"></SocialIcon>
+<br/>
+<b>Email:</b>
+chloeprofessionaldevelopment@outlook.com
+
 
 
     </Section>
