@@ -8,44 +8,48 @@ import { useEffect, useRef } from "react";
 
 export const projects = [
   {
-    title: "Wawatmos",
-    url: "https://r3f-wawatmos-final.vercel.app/",
-    image: "projects/avatar.jpg",
-    description: "Recreating the Atmos Awwwards website with React Three Fiber",
+    title: "",
+    url: "https://github.com/pcdb-maker",
+    image: "projects/avatar1.jpg",
+    description: "",
   },
   {
-    title: "Portfolio Baking",
-    url: "https://www.youtube.com/watch?v=YkHqpqJgLKw",
-    image: "projects/avatar.jpg",
-    description: "Learn how to bake a 3D model with Blender and use it in r3f",
-  },
-  {
-    title: "3D Avatar",
-    url: "https://www.youtube.com/watch?v=pGMKIyALcK0",
-    image: "projects/avatar.jpg",
-    description: "Learn how to use ReadyPlayerMe to create a 3D avatar",
-  },
-  {
-    title: "Kanagame",
-    url: "https://www.youtube.com/watch?v=zwNF1-lsia8",
-    image: "projects/avatar.jpg",
-    description: "Use React Three Fiber to create a 3D game",
-  },
-  {
-    title: "Loader",
-    url: "https://www.youtube.com/watch?v=L12wIvuZTOY",
-    image: "projects/avatar.jpg",
-    description: "Create a loading screen for your r3f projects",
+    title: "Full CRM App",
+    url: "https://crm-react-app-refine.vercel.app/",
+    image: "projects/avatar2.jpg",
+    description: "Use the automatically pre-loaded user email password (demodemo) to login! Please don't refresh on the auth page! :) ",
   },
 
   {
-    title: "Loader",
-    url: "https://www.youtube.com/watch?v=L12wIvuZTOY",
-    image: "projects/avatar.jpg",
-    description: "Create a loading screen for your r3f projects",
+    title: "Car Rental API",
+    url: "https://new-car-api.vercel.app/",
+    image: "projects/avatar3.jpg",
+    description: "React.js webpage using RapidAPI to mimic the functionality of a car rental website.",
   },
-];
 
+  {
+    title: "Magical Portfolio",
+    url: "https://magical-portfolio-main.vercel.app/",
+    image: "projects/avatar4.jpg",
+    description: "3D Interactive portfolio example using React.js and Three.js.",
+  },
+
+{
+    title: "E-Commerce site",
+    url: "https://react-athena-jewelry.netlify.app/",
+    image: "projects/avatar5.jpg",
+    description: "Frontend version of an e-commerce website using React.js and Vite.js.",
+  },
+
+
+  {
+    title: "Banking Website",
+    url: "https://react-banking-app-fe.netlify.app/",
+    image: "projects/avatar6.jpg",
+    description: "Fully interactive webspage with one-page navigational header made with React.js",
+  },
+ 
+];  
 const Project = (props) => {
   const { project, highlighted } = props;
 
