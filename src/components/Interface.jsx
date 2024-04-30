@@ -126,7 +126,7 @@ const skills = [
   },
   {
   
-    title: "RESTful API Integration ",
+    title: "Content/RESTful API Integration ",
     level: 70,
   },
   {

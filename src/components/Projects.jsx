@@ -17,7 +17,7 @@ export const projects = [
     title: "Full CRM App",
     url: "https://crm-react-app-refine.vercel.app/",
     image: "projects/avatar2.jpg",
-    description: "Use the automatically pre-loaded user email password (demodemo) to login! Please don't refresh on the auth page! :) ",
+    description: "The random pre-loaded user email password (demodemo) will log you in. Some browsers will auto-login for you. Please don't refesh the auth. ",
   },
 
   {

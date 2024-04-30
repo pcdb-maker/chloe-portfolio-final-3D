@@ -11,25 +11,22 @@ import { useEffect, useRef } from "react";
 export const projectsCopy = [
   {
     title: "",
-    url: "",
     image: "projectsCopy/education2.jpg",
     description: "",
   },
   {
     title: "",
-    url: "",
     image: "projectsCopy/education3.jpg",
     description: "",
   },
   {
     title: "",
-    url: "",
     image: "projectsCopy/education4.jpg",
     description: "",
   },
   {
     title: "",
-    url: "",
+
     image: "projectsCopy/education5.jpg",
     description: "",
   },
@@ -61,7 +58,6 @@ const ProjectCopy = (props) => {
       <mesh
          position-z={-0.001}
         position-y={-8.25}
-        onClick={() => window.open(projectCopy.url, "_blank")}
         ref={background}
       >
         <planeGeometry args={[2.8, 2.5]} />
