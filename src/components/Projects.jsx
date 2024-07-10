@@ -48,7 +48,7 @@ export const projects = [
     image: "projects/avatar6.jpg",
     description: "Fully interactive web-page with one-page navigational header made with React.js.",
   },
-
+  
   {
     title: "Travel Website",
     url: "https://react-travel-fe.netlify.app/",
