@@ -647,6 +647,7 @@
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
 "@types/webxr@^0.5.2":
+  version "0.169.0"
   resolved "https://registry.npmjs.org/@types/three/-/three-0.169.0.tgz"
   integrity sha512-oan7qCgJBt03wIaK+4xPWclYRPG9wzcg7Z2f5T8xYTNEF95kh0t0lklxLLYBDo7gQiGLYzE6iF4ta7nXF2bcsw==
   dependencies:
