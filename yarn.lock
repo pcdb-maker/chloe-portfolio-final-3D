@@ -674,6 +674,7 @@
     magic-string "^0.27.0"
     react-refresh "^0.14.0"
 
+  integrity sha512-NMmS8/DofhH/IFeW+876XrHVWel+J/vdcFCHLDqeJgkH9x0DeiwjVd8LcBdaxdG/T7Rf8VUAYsA8X1efMzLjRQ==
 
 ansi-styles@^3.2.1:
   version "3.2.1"
