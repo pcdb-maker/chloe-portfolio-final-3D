@@ -647,6 +647,7 @@
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
 "@types/webxr@^0.5.2":
+"@types/webxr@*", "@types/webxr@^0.5.2":
   version "0.5.4"
   resolved "https://registry.npmjs.org/@types/webxr/-/webxr-0.5.4.tgz"
   integrity sha512-41gfGLTtqXZhcmoDlLDHqMJDuwAMwhHwXf9Q2job3TUBsvkNfPNI/3IWVEtLH4tyY1ElWtfwIaoNeqeEX238/Q==
