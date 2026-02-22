@@ -646,6 +646,7 @@
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
 "@types/webxr@^0.5.2":
+  version "0.17.3"
   resolved "https://registry.npmjs.org/@types/stats.js/-/stats.js-0.17.3.tgz"
   integrity sha512-pXNfAD3KHOdif9EQXZ9deK82HVNaXP5ZIF5RP2QG6OQFNTaY2YIetfrE9t528vEreGQvEPRDDc8muaoYeK0SxQ==
 
