@@ -124,7 +124,6 @@ const skills = [
     title: "HTML/CSS/SCSS/Tailwind/Bootstrap",
     level: 70,
   },
-  {
   
   {
     title: "Collaboration Tools(Git, Atlassian)",
