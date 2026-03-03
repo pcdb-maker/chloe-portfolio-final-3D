@@ -136,7 +136,6 @@ const skills = [
   },
   {
    
-    title: "Three.js",
   
 
 
