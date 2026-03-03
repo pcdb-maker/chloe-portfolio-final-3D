@@ -75,6 +75,7 @@ const AboutSection = (props) => {
         }}
       >
         I develop interactive front-end web experiences
+        I develop interactive full-stack web experiences
         <br />
         that unite practicality and intuitive design elements.
       </motion.p>
