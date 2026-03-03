@@ -104,7 +104,6 @@ const AboutSection = (props) => {
 const skills = [
   {
    
-    title: "Java Script (ES7)",
     title: "React.js (Next.js, Vite.js, Vue.js)",
     level: 90,
   },
