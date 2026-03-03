@@ -121,7 +121,6 @@ const skills = [
   
   {
    
-    title: "HTML/CSS/SCSS/Tailwind/Bootstrap",
     title: "RESTful & GraphQL API Integration",
     level: 70,
   },
