@@ -140,7 +140,6 @@ const skills = [
     level: 40,
   },
   {
-    title: "3D Modeling",
   
 
 
