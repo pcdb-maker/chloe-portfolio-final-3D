@@ -116,6 +116,7 @@ const skills = [
   {
    
     title: "Nodejs (NPM, YARN, BUN & GULP)",
+    title: "Node.js (NPM, Yarn, Bun, Gulp)",
     level: 80,
   },
   
