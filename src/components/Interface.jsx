@@ -110,6 +110,7 @@ const skills = [
   {
   
     title: "React.js (Next.js, Vite.js, Vue.js)",
+    title: "JavaScript (ES7/ES6), TypeScript, HTML/CSS/SCSS/Tailwind/Bootstrap",
     level: 90,
   },
 
