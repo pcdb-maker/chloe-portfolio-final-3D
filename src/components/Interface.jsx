@@ -280,7 +280,6 @@ const ContactSection = () => {
 
 <b>Github:</b>
 <SocialIcon target="_blank" url="https://github.com/pcdb-maker"></SocialIcon>
-<br/>
 <b>Email:</b>
 chloeprofessionaldevelopment@outlook.com
 
