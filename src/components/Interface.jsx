@@ -139,7 +139,6 @@ const skills = [
     title: "Three.js",
     level: 40,
   },
-  {
   
 
 
