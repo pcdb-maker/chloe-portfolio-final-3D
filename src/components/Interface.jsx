@@ -130,7 +130,6 @@ const skills = [
     level: 70,
   },
   {
-   
     title: "Mobile Development(Golang, React Native, Kotlin)",
     level: 60,
   },
