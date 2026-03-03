@@ -127,6 +127,7 @@ const skills = [
   {
   
     title: "Content/RESTful API Integration ",
+  {
     title: "Collaboration Tools(Git, Atlassian)",
     level: 70,
   },
