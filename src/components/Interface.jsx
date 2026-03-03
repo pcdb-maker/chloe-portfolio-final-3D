@@ -135,7 +135,6 @@ const skills = [
     level: 60,
   },
   {
-   
   
 
 
