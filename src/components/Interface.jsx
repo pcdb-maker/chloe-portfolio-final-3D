@@ -141,7 +141,6 @@ const skills = [
   },
   {
     title: "3D Modeling",
-    level: 30,
   
 
 
