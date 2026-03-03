@@ -283,7 +283,6 @@ const ContactSection = () => {
 <br/>
 <b>LinkedIn:</b>
 <SocialIcon target="_blank" url="https://www.linkedin.com/in/chloe-o-834127306/"></SocialIcon>
-<br/>
 <b>Email:</b>
 chloeprofessionaldevelopment@outlook.com
 
