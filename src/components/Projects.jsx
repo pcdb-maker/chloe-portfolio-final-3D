@@ -14,6 +14,7 @@ export const projects = [
     description: "",
   },
 
+  {
     title: "AI Insights Tool",
     url: "https://pocket-scientist-idea.netlify.app/insights",
     image: "projects/avatar12.png",
