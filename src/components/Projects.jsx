@@ -14,6 +14,7 @@ export const projects = [
     description: "",
   },
 
+  },
 
   {
     title: "Full CRM App",
