@@ -14,6 +14,7 @@ export const projects = [
     description: "",
   },
 
+    title: "AI Insights Tool",
     url: "https://pocket-scientist-idea.netlify.app/insights",
     image: "projects/avatar12.png",
     description: "This project provides AI-powered insights and trend analysis based on employee feedback, helping improve performance management and engagement.",
