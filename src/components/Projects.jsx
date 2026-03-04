@@ -13,6 +13,7 @@ export const projects = [
     image: "projects/avatar1.jpg",
     description: "",
   },
+
   {
     title: "Full CRM App",
     url: "https://crm-react-app-refine.vercel.app/",
