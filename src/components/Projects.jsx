@@ -14,6 +14,7 @@ export const projects = [
     description: "",
   },
 
+    description: "This project provides AI-powered insights and trend analysis based on employee feedback, helping improve performance management and engagement.",
   },
 
   {
