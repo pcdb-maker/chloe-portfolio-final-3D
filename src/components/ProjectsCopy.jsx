@@ -31,6 +31,7 @@ export const projectsCopy = [
     title: "",
     url: "",
     description: "",
+  }
   
 ];
 
