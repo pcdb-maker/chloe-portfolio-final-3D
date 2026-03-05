@@ -27,6 +27,7 @@ export const projectsCopy = [
     image: "projectsCopy/education5.jpg",
     description: "",
   },
+
   {
     title: "",
     url: "",
