@@ -30,6 +30,7 @@ export const projectsCopy = [
   {
     title: "",
     url: "",
+    image: "projectsCopy/education17.jpg",
     description: "",
   }
   
