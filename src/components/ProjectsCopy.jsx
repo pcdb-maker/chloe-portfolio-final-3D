@@ -22,7 +22,6 @@ export const projectsCopy = [
     description: "",
   },
   {
-    title: "",
 
 
 
