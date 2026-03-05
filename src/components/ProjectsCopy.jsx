@@ -16,12 +16,8 @@ export const projectsCopy = [
   },
   {
     title: "",
-    image: "projectsCopy/education3.jpg",
-    description: "",
-  },
-  {
-    title: "",
-    image: "projectsCopy/education4.jpg",
+    url: "",
+    image: "projectsCopy/education1.jpg",
     description: "",
   },
   {
@@ -33,9 +29,7 @@ export const projectsCopy = [
   {
     title: "",
     url: "",
-    image: "projectsCopy/education1.jpg",
     description: "",
-  },
   
 ];
 
